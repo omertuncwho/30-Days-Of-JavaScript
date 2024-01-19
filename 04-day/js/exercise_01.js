@@ -35,7 +35,7 @@ console.log(`You entered ${yourAge} please enter a vaild number.!`);
 }
 else {
 console.log(`You entered ${yourAge} please enter a vaild number.!`);}
-*/
+
 /*let a = 4;
 let b=5;
 
