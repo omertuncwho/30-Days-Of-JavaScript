@@ -1,11 +1,11 @@
-/*const fruits =[`apple`,`banana`,`strawberry`,`grape`,`coconut`];
-const numbers=[0,33,445,2123,42,51,14,13,4,1,3,2,33];
+const fruits =[`apple`,`banana`,`strawberry`,`grape`,`coconut`];
+const num=[0,33,445,2123,42,51,14,13,4,1,3,2,33];
 const vegetables=[`Tomato`,`Potato`,`Cabbage`,`Onion`,`Carrot`];
 const animalProducts=[`milk`,`meat`,`yogurt`,`butter`]
 const countries=[`Finland`,`Denmark`,`Sweden`,`Norway`];
 
-console.log(numbers);
-console.log(`length of the numbers ${numbers.length}`);
+console.log(num);
+console.log(`length of the numbers ${num.length}`);
 
 console.log(fruits);
 console.log(`length of the fruits ${fruits.length}`);
@@ -23,30 +23,29 @@ const mixedArray= [3,`Tomato`,4,`Eggs`,1,`Pan`,1,`Stove`];
 console.log(mixedArray);
 console.log(`Length of mixed array ${mixedArray.length}`);
 
-*/
-/*
+
 let javaScript=`javaScript`;
 
 const charsInJavaScript = javaScript.split(``);
-console.log(charsInJavaScript);*/
-/*
+console.log(charsInJavaScript);
+
 let countrieString=`Turkey,Greece,Russia,Bulgaria,Italy,Japan,Portugal`;
 console.log(``)
 const charsInCountries = countrieString.split(`,`);
 console.log(charsInCountries)
-*/
-/*let keyboardBrands = `Ducky WASD-Keyboards Keychron Cherry Logitech`;
+
+let keyboardBrands = `Ducky WASD-Keyboards Keychron Cherry Logitech`;
 console.log(keyboardBrands);
 const charsInKeyboard = keyboardBrands.split(` `);
-console.log(charsInKeyboard);*/
-/*
+console.log(charsInKeyboard);
+
 const books= [`Sci-Fi`,`Action`,`Adventure`,`Romance`];
 let firstIndex = books[0];
 console.log(firstIndex);
 
 let secondIndex= books[1];
 console.log(secondIndex);
-*/
+
 const numbers = [7, 31.98, 2055, 29, 2021, 47];  
 console.log(numbers.length);
 console.log(numbers); 
