@@ -1,4 +1,4 @@
-const fruits =[`apple`,`banana`,`strawberry`,`grape`,`coconut`];
+/*const fruits =[`apple`,`banana`,`strawberry`,`grape`,`coconut`];
 const num=[0,33,445,2123,42,51,14,13,4,1,3,2,33];
 const vegetables=[`Tomato`,`Potato`,`Cabbage`,`Onion`,`Carrot`];
 const animalProducts=[`milk`,`meat`,`yogurt`,`butter`]
@@ -51,3 +51,15 @@ console.log(numbers.length);
 console.log(numbers); 
 console.log(numbers[2]);      
 console.log(numbers[3]);
+*/
+const createArray = Array(); //Creates empty array
+console.log(createArray);
+
+const createArrays = Array(12).fill(`ARRY`);
+console.log(createArrays);
+
+const  firstCity = [`Berlin`, `Paris`, `Amsterdam`,`Barcelona`];
+const  secondCity = [`Izmir`,`Atina`,`Milano`,`Lisbon`,`Seoul`,`Tokyo`];
+
+const  allCity = firstCity.concat(secondCity);
+  
