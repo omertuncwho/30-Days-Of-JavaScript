@@ -62,4 +62,4 @@ const  firstCity = [`Berlin`, `Paris`, `Amsterdam`,`Barcelona`];
 const  secondCity = [`Izmir`,`Atina`,`Milano`,`Lisbon`,`Seoul`,`Tokyo`];
 
 const  allCity = firstCity.concat(secondCity);
-  
+  console.log(allCity);
