@@ -142,4 +142,4 @@ function generateRandomId() {
 
 const myRandomId = generateRandomId();
 
-console.log("Random IDs, ${myRandomId}`);
+console.log(`Random IDs, ${myRandomId}`);
