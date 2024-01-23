@@ -107,4 +107,33 @@ const changeToUpperCase = arr => {
 
   const printFullName = (firstName, lastName) => `${firstName} ${lastName}`
 
-console.log(printFullName('Ömer', 'Tunç'))
+console.log(printFullName('Ömer', 'Tunç'));
+
+function functionName(param = value) {
+  }
+  functionName();
+  functionName(arg);
+
+  function greetings(name = 'Tunç') {
+    let message = `${name}, welcome to 30 Days Of JavaScript!`;
+    return message;
+  }
+  
+  console.log(greetings());
+  console.log(greetings('Ömer'));
+
+  function calculateAge(birthYear, currentYear = 2024) {
+    let age = currentYear - birthYear
+    return age
+  }
+  
+  console.log('Age: ', calculateAge(1998))
+
+  function generateFullName(firstName = 'Ömer', lastName = 'Tunç') {
+    let space = ' ';
+    let fullName = firstName + space + lastName;
+    return fullName;
+  }
+  
+  console.log(generateFullName());
+  console.log(generateFullName('George', 'Tom'));
