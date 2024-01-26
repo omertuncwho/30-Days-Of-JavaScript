@@ -49,10 +49,10 @@ addString();
 console.log(names,surnames);
 
 */
-//scope.js dosyasının içerisi
+
 /*
-let a = 'JavaScript' // bu dosyanın herhangi bir yerinde erişilebilecek global bir kapsamdır.
-let b = 10 // bu dosyanın herhangi bir yerinde erişilebilecek global bir kapsamdır.
+let a = 'JavaScript' 
+let b = 10 
 
 // Function scope
 function letsLearnScope() {
@@ -65,14 +65,13 @@ function letsLearnScope() {
     let c = 30
     let d = 40
     value = !value
-    console.log(a, b, c, value) // Python 20 30 true
+    console.log(a, b, c, value)
   }
-  //c değişkenine erişemiyoruz çünkü c değişkeni sadec if bloğunda geçerli bir değişkendir
-  console.log(a, b, c, value) // JavaScript 10 undefined true
+
+  console.log(a, b, c, value) 
 }
 letsLearnScope()
-console.log(a, b) // JavaScript 10, erişilebilir*/
-/*
+console.log(a, b) 
 const person = {
   firstName: 'Asabeneh',
   lastName: 'Yetayeh',
@@ -109,11 +108,11 @@ console.log(person[`phone number`]);
 
 */
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  firstName: 'Omer',
+  lastName: 'Tunc',
+  age: 25,
+  country: 'Turkey',
+  city: 'Izmir',
   skills: [
     'HTML',
     'CSS',
@@ -128,7 +127,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`
   }
 }
-person.nationality = 'Ethiopian'
+person.nationality = ''
 person.country = 'Finland'
 person.title = 'teacher'
 person.skills.push('Meteor')
@@ -148,3 +147,27 @@ person.getPersonInfo = function() {
 }
 console.log(person)
 console.log(person.getPersonInfo())
+
+const person = {
+  firstName: 'Omer',
+  lastName: 'Tunc',
+  age: 25,
+  country: 'Turkey',
+  city: 'Izmir',
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Node',
+    'MongoDB',
+    'Python',
+    'D3.js'
+  ],
+  getFullName: function() {
+    return `${this.firstName} ${this.lastName}`
+  }
+}
+
+console.log(person.getFullName())
+// Asabeneh Yetayeh
